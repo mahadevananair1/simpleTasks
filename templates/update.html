@@ -1,0 +1,18 @@
+{% extends 'template.html' %}
+
+{% block head %}
+<title>Update Tasks</title>
+{% endblock %}
+{% block body %}
+<div class="content .container text-center">
+    <h1 class="display-1" style="background-color: darkgrey;">Task Manager</h1>
+    <div>
+        
+        <h3 style="background-color: lightcyan; width: fit-content;" class="display-4">UPDATE-TASK</h3>
+        <form action ="/update/{{task.id}}" method="POST">
+        <input class="form-group mx-sm-3 mb-2" type="text" name="content" id="content" value="{{task.content}}">
+        <input class="btn btn-primary mb-2" type="submit" value="update" id="submit" disabled>
+        </form>
+    </div>
+
+{% endblock %}
