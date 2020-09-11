@@ -25,7 +25,8 @@ body{
   margin: 50px auto;
   width: fit-content;
   height: fit-content;
-  background-color: #3d3d3d;
+  padding: 20px;
+  background-color: rgb(117, 178, 194);
   box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
   0 6.7px 5.3px rgba(0, 0, 0, 0.028),
   0 12.5px 10px rgba(0, 0, 0, 0.035),
